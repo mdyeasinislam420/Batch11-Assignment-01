@@ -312,6 +312,42 @@ body {
   background-color: #FFC239;
 }
 
+
+.legend {
+  width: 100%;
+  height: 200px;
+  border: none;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  background-image: url('../assets/quote-bg.png');
+  background-position-x: 24px;
+  background-position-y: 25px;
+  padding: 48px 24px;
+  background-repeat: no-repeat;
+}
+.legend-opinion{
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.8);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.legend-name{
+  font-weight: 500;
+  font-size: 20px;
+  color: rgba(14, 14, 14, 0.8);
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+.legend-post{
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.8);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+
+
 /*News section*/
 .main-news-box-title {
   font-weight: bold;
@@ -476,6 +512,7 @@ body {
   font-size: 20px;
   text-align: center;
   color: rgba(14, 14, 14, 0.3);
+  border: none;
   margin-top: 0px;
   margin-bottom: 32px;
 }
@@ -550,7 +587,8 @@ body {
   border-radius: 0px 8px 8px 0px;
   background: rgb(0, 106, 80);
 }
-.promissin{
+
+.promissin {
   font-size: 16px;
   color: rgba(14, 14, 14, 0.7);
   margin-top: 25px;
@@ -559,24 +597,27 @@ body {
 
 
 /*footer section*/
-.footer{
+.footer {
   text-align: center;
 }
-.foote-title{
+
+.foote-title {
   font-weight: bold;
   font-size: 32px;
   color: #0E0E0E;
   margin-top: 50px;
   margin-bottom: 32px;
 }
-.icon{
+
+.icon {
   /* width: 120px;
   height: 24; */
   /* justify-content: space-between; */
   margin-top: 32px;
   margin-bottom: 50px;
 }
-.mid-icon{
+
+.mid-icon {
   margin-left: 23px;
   margin-right: 23px;
 }
