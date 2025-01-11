@@ -11,20 +11,21 @@ body {
   gap: auto;
   justify-content: space-between;
 }
+.header-title button{
+  padding: 24px auto;
+}
 
 .header-title-bd {
   font-weight: bold;
-  font-size: 222px 32px;
+  font-size: 32px;
+  margin: 0;
   color: #0E0E0E;
-}
-
-.header-title-btn:hover {
-  background-color: brown;
 }
 
 .header-title-btn {
   height: 52px;
   width: 116px;
+  padding: 24px auto;
   font-weight: 600;
   font-size: 18px;
   border: 1px solid rgb(0, 106, 80);
@@ -32,6 +33,10 @@ body {
   background: none;
 }
 
+
+.header-title-btn:hover {
+  background-color: brown;
+}
 .header-title-btn a {
   text-decoration: none;
   color: #006A50;
@@ -41,20 +46,16 @@ body {
   display: flex;
   justify-content: space-evenly;
   margin: 20px 0px 80px 0px;
-  /* padding: 80px 100px; */
   background-color: #C6E4D6;
   border-radius: 24px;
 }
 
 .header-containar {
-  /* width: 622px;
-  height: 326px; */
-  margin: 117px 0px 117px 60px;
+  margin: 117px 32px 117px 60px;
   display: block;
-  /* flex-direction: column; */
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 24;
+  gap: 30;
 }
 
 .title {
@@ -63,7 +64,10 @@ body {
   margin-bottom: 0px;
   color: #0E0E0E;
 }
-
+.header-pic img{
+  margin: 117px 60px 117px 32px;
+  overflow-clip-margin: content-box;
+}
 .description {
   font-weight: bold;
   font-size: 56px;
@@ -93,17 +97,9 @@ body {
   text-decoration: none;
 }
 
-.header-pic {
-  width: 474.03px;
-  height: 400px;
-  margin: 80px 60px 0px 24px;
-  overflow-clip-margin: content-box;
-}
-
 
 
 /*main section*/
-
 /*future section*/
 .furure {
   justify-content: flex-start;
@@ -155,11 +151,6 @@ body {
   height: 62px;
 }
 
-/* .future-container-logo {
-  font-size: 62px;
-  height: 62px;
-} */
-
 .future-containar-title {
   font-weight: bold;
   font-size: 20px;
@@ -203,9 +194,8 @@ body {
   background-color: #FFC239;
 }
 
-
 .legend {
-  width: 100%;
+  /* width: 100%; */
   height: 200px;
   border: none;
   border-radius: 8px;
@@ -317,6 +307,14 @@ body {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+.news-date{
+  margin: 0;
+  margin-bottom: 12px;
+}
+.news-time{
+  margin: 0;
+  margin-bottom: 12px;
+}
 
 .news-description {
   font-size: 16px;
@@ -382,7 +380,6 @@ body {
   width: 220px;
   height: 100px;
   border: none;
-  justify-content: space-between;
   border-radius: 8px;
   background-color: white;
   font-weight: bold;
@@ -470,7 +467,7 @@ button.color-btn {
 
 .subscribe-btn button {
   font-weight: 500;
-  font-size: 18;
+  font-size: 20;
   color: #FFFFFF;
   width: 150px;
   height: 56px;
@@ -482,7 +479,7 @@ button.color-btn {
   background-color: brown;
 }
 
-.promissin {
+.promissing {
   font-size: 16px;
   color: rgba(14, 14, 14, 0.7);
   margin-top: 25px;
@@ -494,6 +491,10 @@ button.color-btn {
 .footer {
   text-align: center;
 }
+.footer hr{
+  background-color: rgba(14, 14, 14, 0.1);
+  margin: 0px 239px;
+}
 
 .foote-title {
   font-weight: bold;
@@ -504,9 +505,6 @@ button.color-btn {
 }
 
 .icon {
-  /* width: 120px;
-  height: 24; */
-  /* justify-content: space-between; */
   margin-top: 32px;
   margin-bottom: 50px;
 }
