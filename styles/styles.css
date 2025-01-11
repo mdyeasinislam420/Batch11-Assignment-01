@@ -228,6 +228,7 @@ body {
   font-size: 16px;
   margin-top: 0px;
   margin-bottom: 0px;
+  color: rgba(14, 14, 14, 0.7);
 }
 
 
@@ -242,7 +243,7 @@ body {
 
 .future-first-container {
   border-radius: 16px;
-  background-color: #81B4FC;
+  background-color: rgba(84, 144, 245, 0.2);
   padding: 32px;
 }
 
@@ -257,7 +258,8 @@ body {
   background-color: #F7EBCF;
   padding: 32px;
 }
-.future-third-container img{
+
+.future-third-container img {
   font-size: 62px;
   height: 62px;
 }
@@ -274,7 +276,7 @@ body {
 
 .future-container-description {
   font-size: 16px;
-  color: #0E0E0E;
+  color: rgba(14, 14, 14, 0.7);
 }
 
 .future-container-btn {
@@ -311,89 +313,270 @@ body {
 }
 
 /*News section*/
-.main-news-box-title{
+.main-news-box-title {
   font-weight: bold;
   font-size: 40px;
   color: #0E0E0E;
 }
-.main-news-box-description{
+
+.main-news-box-description {
   font-size: 16px;
-  color: #0E0E0E;
+  color: rgba(14, 14, 14, 0.7);
   margin-top: 24px;
   margin-bottom: 32px;
 }
-.news-picture img{
+
+.news-picture img {
   border-radius: 24px;
 }
-.news-box{
+
+.news-box {
   display: flex;
   padding: 48px;
   gap: 32px;
   border-radius: 10px;
   margin-bottom: 80px;
 }
-.first-news{
+
+.first-news {
   border: none;
   background-color: white;
   margin-bottom: 24px;
 }
-.second-news{
+
+.second-news {
   border: none;
   background-color: white;
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.third-news{
+
+.third-news {
   border: none;
   background-color: white;
   margin-top: 24px;
 }
-.news-details{
+
+.news-details {
   margin-top: 8px;
   margin-bottom: 8px;
 }
-.news-title{
+
+.news-title {
   font-weight: bold;
   font-size: 32px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.news-channel-logo img{
-  width: 134px;
-  height: 40px;
+
+.news-channel-logo {
   margin-top: 12px;
   margin-bottom: 12px;
 }
-.news-date-time{
+
+.news-channel-logo img {
+  width: 134px;
+  height: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.news-date-time {
   font-size: 16px;
-  color: #0E0E0E;
+  color: rgba(14, 14, 14, 0.7);
   display: flex;
   column-gap: 12px;
+  padding: none;
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.news-description{
+
+.news-description {
   font-size: 16px;
-  color: #0E0E0E;
+  color: rgba(14, 14, 14, 0.7);
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.news-rm-btn{
+
+.news-rm-btn {
   border: none;
   border-radius: 8px;
   padding: 13px 26px;
   background-color: #006A50;
   margin-top: 32px;
   margin-bottom: 0px;
+
 }
-.news-rm-btn:hover{
+
+.news-rm-btn:hover {
   background-color: brown;
 }
-.news-rm-btn a{
+
+.news-rm-btn a {
   font-weight: 500;
   font-size: 18px;
   text-decoration: none;
   color: #FFFFFF;
 }
 
+/*donate section*/
+.donate-box {
+  text-align: center;
+}
+
+.donate-title {
+  font-weight: bold;
+  font-size: 40px;
+  color: #0E0E0E;
+  margin-bottom: 24px;
+}
+
+.donate-description {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.donate-amount {
+  gap: 24px;
+  margin-top: 32px;
+  margin-bottom: 24px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px;
+}
+
+.color-btn {
+  background-color: #09A15C;
+}
+
+.donate-amount button:hover {
+  background-color: brown;
+}
+
+.donate-amount button {
+  justify-content: space-between;
+  width: 220px;
+  height: 100px;
+  border: none;
+  justify-content: space-between;
+  border-radius: 8px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 40px;
+  color: rgba(14, 14, 14, 0.8);
+
+}
+
+.primary-amount-btn {
+  width: 80%;
+  height: 60px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: rgba(14, 14, 14, 0.3);
+  margin-top: 0px;
+  margin-bottom: 32px;
+}
+
+.ok-btn button {
+  height: 56px;
+  width: 151;
+  background-color: #006A50;
+  border: none;
+  padding: 17px 34px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.ok-btn:hover {
+  color: brown;
+}
+
+/* subscribe section  */
+.subscribe-box {
+  height: 395px;
+  background-color: #C6E4D6;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border: none;
+  border-radius: 24px;
+  text-align: center;
+  padding: 80px 200px;
+}
+
+.subscribe-title {
+  font-weight: bold;
+  font-size: 40px;
+  color: #0E0E0E;
+}
+
+.subscribe-descrip {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  margin: 16px 64px 24px;
+}
+
+.subscribe-text-btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+
+.subscribe-text {
+  width: 600px;
+  height: 39px;
+  background-color: #FFFFFF;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 9px 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: none;
+  border-radius: 8px 0px 0px 8px;
+  color: rgba(14, 14, 14, 0.3);
+}
+
+.subscribe-btn button {
+  font-weight: 500;
+  font-size: 18;
+  color: #FFFFFF;
+  width: 150px;
+  height: 56px;
+  border: none;
+  border-radius: 0px 8px 8px 0px;
+  background: rgb(0, 106, 80);
+}
+.promissin{
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+
+
 /*footer section*/
+.footer{
+  text-align: center;
+}
+.foote-title{
+  font-weight: bold;
+  font-size: 32px;
+  color: #0E0E0E;
+  margin-top: 50px;
+  margin-bottom: 32px;
+}
+.icon{
+  /* width: 120px;
+  height: 24; */
+  /* justify-content: space-between; */
+  margin-top: 32px;
+  margin-bottom: 50px;
+}
+.mid-icon{
+  margin-left: 23px;
+  margin-right: 23px;
+}
